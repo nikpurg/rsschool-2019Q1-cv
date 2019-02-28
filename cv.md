@@ -7,4 +7,5 @@
     * Passing the course, gaining experience, self-education, stress resistance, the desire to achieve results, perseverance.
 4. ### Skills
     * Network administration, (windows, linux), l2 routing
-5. ### English - reading technical documentation.   
+5. ### Languages
+    * English - reading technical documentation.
