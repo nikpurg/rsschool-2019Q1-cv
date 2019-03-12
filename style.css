@@ -1,105 +1,105 @@
 /* ___reset_____ */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
-    width: 1024px;
-    margin: 0 auto;
-    height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  height: 100%;
 }
 
 /* ______________nav_____________________ */
 
 header {
-    position: fixed;
-    z-index: 4;
-    width: 1024px;
-    height: 50px;
-    background-color: #1E1E1E;
-    flex: 1 0 auto;
+  position: fixed;
+  z-index: 4;
+  width: 1024px;
+  height: 50px;
+  background-color: #1E1E1E;
+  flex: 1 0 auto;
 }
 
 .wrapper {
-    font-family: 'Franklin Gothic Medium', sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .nav {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .nav-item {
-    display: flex;
-    height: 50px;
-    width: 150px;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    color: #9FC6D4;
+  display: flex;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: #9FC6D4;
 }
 
 .nav-item:hover {
-    background-color: #3C3C3C;
+  background-color: #3C3C3C;
 }
 
 /* wrapper, main, footer */
 
 h2 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 h1 {
-    font-weight: 400;
-    text-indent: 10px;
+  font-weight: 400;
+  text-indent: 10px;
 }
 
 p {
-    text-indent: 10px;
+  text-indent: 10px;
 }
 
 main {
-    margin-top: 50PX;
-    width: 100%;
-    flex: 1 0 auto;
-    background-color: rgb(222, 243, 253);
+  margin-top: 50PX;
+  width: 100%;
+  flex: 1 0 auto;
+  background-color: rgb(222, 243, 253);
 }
 
 .wrap {
-    display: block;
-    margin: 55px 5px 0;
-}
-.wrapcenter{
-    display: block;
-    margin: 5px 5px;
+  display: block;
+  margin: 55px 5px 0;
 }
 
+.wrapcenter {
+  display: block;
+  margin: 5px 5px;
+}
 
 section {
-    border-bottom: 1px solid #3C3C3C;
+  border-bottom: 1px solid #3C3C3C;
 }
 
 div.wrapper {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
 
 .bio {
-    display: flex;
+  display: flex;
 }
 
 footer {
-    width: 100%;
-    flex: 0 0 auto;
-    height: 50px;
-    background-color: #1E1E1E;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #9FC6D4;
+  width: 100%;
+  flex: 0 0 auto;
+  height: 50px;
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #9FC6D4;
 }
