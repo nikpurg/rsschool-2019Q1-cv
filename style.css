@@ -73,8 +73,13 @@ main {
 
 .wrap {
     display: block;
-    margin: 10px 5px;
+    margin: 55px 5px 0;
 }
+.wrapcenter{
+    display: block;
+    margin: 5px 5px;
+}
+
 
 section {
     border-bottom: 1px solid #3C3C3C;
