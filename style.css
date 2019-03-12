@@ -23,6 +23,7 @@ header {
 }
 
 .wrapper {
+    font-family: 'Franklin Gothic Medium', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -50,10 +51,41 @@ header {
 
 /* wrapper, main, footer */
 
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    font-weight: 400;
+    text-indent: 10px;
+}
+
+p {
+    text-indent: 10px;
+}
+
 main {
     margin-top: 50PX;
     width: 100%;
     flex: 1 0 auto;
+    background-color: rgb(222, 243, 253);
+}
+
+.wrap {
+    display: block;
+    margin: 10px 5px;
+}
+
+section {
+    border-bottom: 1px solid #3C3C3C;
+}
+
+div.wrapper {
+    margin: 10px 20px;
+}
+
+.bio {
+    display: flex;
 }
 
 footer {
@@ -61,4 +93,8 @@ footer {
     flex: 0 0 auto;
     height: 50px;
     background-color: #1E1E1E;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #9FC6D4;
 }
